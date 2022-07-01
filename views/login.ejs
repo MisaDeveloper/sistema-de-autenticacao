@@ -1,0 +1,48 @@
+<link rel="stylesheet" href="/css/style_login.css">
+
+<div class="container">
+    <div class="div-login">
+
+        <div class="logo-image">
+            <img src="/img/logo.png">
+        </div>
+
+        <h2>
+            Login
+        </h2>
+
+        <div class="container-form">
+            <form action="/app/authUser" method="post">
+
+                <div class="div-input">
+                    <input name="email" placeholder="Email" type="email">
+                </div>
+
+                <div class="div-input">
+                    <input name="password" placeholder="Password" type="password">
+                </div>
+
+                <div class="div-forgot-password">
+                    <a href="#">
+                        Forgot password?
+                    </a>
+                </div>
+
+                <button class="login-button" type="submit">
+                    Login
+                </button>
+
+                <div class="div-signup">
+                    <div>
+                        Don't have an account?
+                    </div>
+                    <a href="/app/signup">
+                        sign up
+                    </a>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+</div>

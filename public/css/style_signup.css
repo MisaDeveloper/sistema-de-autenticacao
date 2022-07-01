@@ -1,0 +1,131 @@
+* {
+    font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(135deg, #3A0CA390 30%, #4CC9F090);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+
+.container .div-signup {
+    max-width: 350px;
+    width: 90%;
+    background-color: #4361EE;
+    border: 3px solid white;
+    border-radius: 50px 0 50px 0;
+    padding: 0 20px 20px 20px;
+}
+
+.div-signup .logo-image {
+    display: flex;
+    justify-content: center;
+    margin-top: -56px;
+}
+
+.div-signup .logo-image img {
+    box-sizing: content-box;
+    width: 90px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 500px;
+}
+
+.div-signup h2 {
+    color: white;
+    text-align: center;
+    font-size: 1.7em;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.div-signup .container-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form .div-input {
+    width: 85%;
+    margin-bottom: 20px;
+}
+
+form .div-input label {
+    color: white;
+    font-size: 1.1em;
+}
+
+form .div-input div input {
+    margin-top: 5px;
+    width: 100%;
+    height: 35px;
+    border-radius: 500px;
+    font-size: 1em;
+    padding: 0 15px;
+    outline: none;
+    border: none;
+}
+
+.div-input .input-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.div-input .input-checkbox input {
+    width: 20px;
+    height: 20px;
+    margin: 0 15px 0 0;
+}
+
+.div-input .input-checkbox label {
+    font-size: 0.95em;
+}
+
+.div-input .input-checkbox label a {
+    color: #4CC9F0;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+form .login-button {
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: 600;
+    width: 65%;
+    height: 50px;
+    border-radius: 500px;
+    border: 3px solid white;
+    background-color: #4CC9F0;
+    color: white;
+    margin-bottom: 20px;
+    transition-duration: 0.3s;
+}
+
+form .login-button:hover {
+    border: 3px solid #4CC9F0;
+    background-color: white;
+    color: #4CC9F0;
+}
+
+form .div-make-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+form .div-make-login a {
+    color: #4CC9F0;
+    font-weight: 600;
+    font-size: 1.3em;
+    text-decoration: none;
+}
